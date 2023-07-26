@@ -1,3 +1,5 @@
+package Aula01;
+
 public class Filme {
     String nome;
     int anoDeLancamento;
@@ -13,10 +15,12 @@ public class Filme {
 
     void avalia(double nota){
         somaDasAvaliacoes += nota;
-        totalDeAvaliacoes++;
+        totalDeAvaliacoes ++;
     }
 
     double pegaMedia(){
         return somaDasAvaliacoes/totalDeAvaliacoes;
     }
+
+
 }
